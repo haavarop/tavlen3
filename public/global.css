@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
 html, body {
 	position: relative;
 	width: 100%;
@@ -9,8 +11,7 @@ body {
 	margin: 0;
 	padding: 8px;
 	box-sizing: border-box;
-	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
-}
+    font-family: 'Quicksand', sans-serif;}
 
 a {
 	color: rgb(0,100,200);
@@ -60,4 +61,28 @@ button:not(:disabled):active {
 
 button:focus {
 	border-color: #666;
+}
+
+.partial {
+	background: linear-gradient(90deg, #62A9E6 0%, #9ED1FD 100%);
+}
+
+.sunny {
+	background: linear-gradient(90deg, #90E5E3 0%, #C1EEE8 100%);
+}
+
+.night {
+	background: linear-gradient(90deg, #5E57AF 0%, #C18BAB 100%);
+}
+
+.cloudy {
+	background: linear-gradient(90deg, #879DB1 0%, #ADBFCD 100%);
+}
+
+.rain {
+	background: linear-gradient(90deg, #3C5B76 0%, #839AAD 100%);
+}
+
+.snow {
+	background: linear-gradient(90deg, #7CB3F9 0%, #C8E4FC 100%);
 }
