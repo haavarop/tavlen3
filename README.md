@@ -2,6 +2,10 @@
 
 ---
 
+# Tavlen3 
+Denne gangen kanskje med bedre ideer og tilstrekkelig motivasjon. 
+
+
 # svelte app
 
 This is a project template for [Svelte](https://svelte.dev) apps. It lives at https://github.com/sveltejs/template.
