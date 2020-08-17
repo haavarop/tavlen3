@@ -1,6 +1,6 @@
 <script>
 	import Weather from "./Weather.svelte"; 
-
+	import Tibber from "./components/Tibber.svelte";
 	export let name;
 </script>
 
@@ -8,7 +8,7 @@
 	<h1>{name}</h1>
 </main>
 <Weather/>
-
+<Tibber />
 
 <style>
 	main {

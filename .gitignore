@@ -1,4 +1,7 @@
 /node_modules/
 /public/build/
 
+/src/components/token.js
+/src/components/../token.js
+
 .DS_Store
