@@ -2,8 +2,6 @@
 	import Weather from "./Weather.svelte"; 
 	import Tibber from "./components/Tibber.svelte";
 	export let name;
-
-
 </script>
 
 <main>
