@@ -5,6 +5,11 @@
 # Tavlen3 
 Denne gangen kanskje med bedre ideer og tilstrekkelig motivasjon. 
 
+## APIer 
+Denne appen henter data fra en rekke offentlig tilgjengelige API. 
+Takk til: 
+* [YR Vêr API](https://api.met.no/)
+* [Tibber utvikler API](https://developer.tibber.com/)
 
 # svelte app
 
