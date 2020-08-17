@@ -1,6 +1,5 @@
 <script>
     import { onMount } from 'svelte';
-    import App from './App.svelte';
     import { weatherTranslations } from './WeatherSelector.js';
     
     // TODO: Get lat and lon based on request
