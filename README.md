@@ -2,7 +2,7 @@
 # Tavlen3 
 Denne gangen kanskje med bedre ideer og tilstrekkelig motivasjon. 
 
-Standard dashbord-tingen med "nyttig" informasjon som alle lager når de vil lære noe nytt. Inneholder masse informasjon som er lett tilgjengelig andre steder, bare denne ganger med mer overhead og dårligere performance. 
+Standard dashbord-tingen med "nyttig" informasjon som alle lager når de vil lære noe nytt. Inneholder masse informasjon som er lett tilgjengelig andre steder, bare med mer overhead og dårligere performance. 
 
 ## APIer 
 Denne appen henter data fra en rekke offentlig tilgjengelige API. 
