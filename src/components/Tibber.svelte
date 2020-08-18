@@ -25,6 +25,9 @@
         fetch,
     })
 
+    const formatNumber = (num, decimals) => {
+        return Number(num).toFixed(decimals);
+    }
 
     const client = new ApolloClient({
         headers: {
@@ -51,7 +54,7 @@
                 <div class="text-container">
                     <p>Data for {home.address.address1}</p>
                     <span class="text-icon-alignment">
-                        <p class="force-text">Strømpris nå: {Number(home.currentSubscription.priceInfo.current.total)*100} øre</p>
+                        <p class="force-text">Strømpris nå: {formatNumber(home.currentSubscription.priceInfo.current.total, 2)*100} øre</p>
                         <PriceIconSelector type={home.currentSubscription.priceInfo.current.level} />
                     </span>
                 </div>
@@ -61,9 +64,9 @@
                     <p>Forbruk siste 30 dager</p>
                 </span>
                 <div class="text-icon-alignment max-size">
-                    <p class="force-text">{Number(home.consumption.pageInfo.totalConsumption).toFixed(2)}</p>
+                    <p class="force-text">{formatNumber(home.consumption.pageInfo.totalConsumption, 2)}</p>
                     <Zap />
-                    <p class="force-text-right">{Number(home.consumption.pageInfo.totalCost).toFixed(2)}kr</p>
+                    <p class="force-text-right">{formatNumber(home.consumption.pageInfo.totalCost, 2)}kr</p>
                 </div>
             </div>
         </div>
