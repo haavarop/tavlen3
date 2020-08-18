@@ -1,9 +1,8 @@
-*Looking for a shareable component template? Go here --> [sveltejs/component-template](https://github.com/sveltejs/component-template)*
-
----
 
 # Tavlen3 
 Denne gangen kanskje med bedre ideer og tilstrekkelig motivasjon. 
+
+Standard dashbord-tingen med "nyttig" informasjon som alle lager når de vil lære noe nytt. Inneholder masse informasjon som er lett tilgjengelig andre steder, bare denne ganger med mer overhead og dårligere performance. 
 
 ## APIer 
 Denne appen henter data fra en rekke offentlig tilgjengelige API. 
